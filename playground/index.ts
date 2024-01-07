@@ -1,3 +1,5 @@
-import { test } from "../src";
+import { defineDuration } from "../src";
 
-console.log(test());
+const duration = defineDuration({
+  days: 3
+})

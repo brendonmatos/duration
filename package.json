@@ -1,8 +1,8 @@
 {
-  "name": "packageName",
+  "name": "unduration",
   "version": "0.0.0",
   "description": "",
-  "repository": "unjs/packageName",
+  "repository": "unjs/unduration",
   "license": "MIT",
   "sideEffects": false,
   "type": "module",
@@ -42,5 +42,8 @@
     "unbuild": "^2.0.0",
     "vitest": "^1.1.0"
   },
-  "packageManager": "pnpm@8.12.1"
+  "packageManager": "pnpm@8.12.1",
+  "dependencies": {
+    "defu": "^6.1.4"
+  }
 }
