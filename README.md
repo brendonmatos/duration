@@ -8,16 +8,14 @@
 unduration is a tiny (0.2kb) library that aims to standardize the way we handle durations in JavaScript, aiming to replace things like:
 
 ```js
-// 1 minute
 defineHandler('/', {
-  ttl: 1000 * 60 * 60 * 24
-  // OR worse
+  ttl: 1000 * 60 * 60 * 24,
+  // OR worser
   ttl: 86_400_000
 })
 ```
 With:
 ```js
-// 1 minute
 defineHandler('/', {
   ttl: '1m',
   // OR
