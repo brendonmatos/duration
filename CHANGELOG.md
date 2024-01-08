@@ -6,11 +6,11 @@
 
 ### 🚀 Enhancements
 
-- Initial commit ([52cea4d](https://github.com/unjs/unduration/commit/52cea4d))
+- Initial commit ([52cea4d](https://github.com/brendonmatos/unduration/commit/52cea4d))
 
 ### 🩹 Fixes
 
-- Remove comment from readme ([1de20f1](https://github.com/unjs/unduration/commit/1de20f1))
+- Remove comment from readme ([1de20f1](https://github.com/brendonmatos/unduration/commit/1de20f1))
 
 ### ❤️ Contributors
 

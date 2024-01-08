@@ -2,7 +2,7 @@
   "name": "unduration",
   "version": "0.0.1",
   "description": "",
-  "repository": "unjs/unduration",
+  "repository": "brendonmatos/unduration",
   "license": "MIT",
   "sideEffects": false,
   "type": "module",

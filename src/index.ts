@@ -96,3 +96,30 @@ export function addToDate(date: Date, duration: Duration) {
 export function subtractFromDate(date: Date, duration: Duration) {
   return new Date(date.getTime() - durationToMilliseconds(duration));
 }
+
+export function millisecondsToDuration(milliseconds: number) {
+  const years = milliseconds % YEAR;
+  const months = years % MONTH;
+  const weeks = months % WEEK;
+  const days = weeks % DAY;
+  const hours = days % HOUR;
+  const minutes = hours % MINUTE;
+  const seconds = minutes % SECOND;
+  const millisecondsLeft = seconds % SECOND;
+
+  return defineDuration({
+    milliseconds: millisecondsLeft,
+    seconds,
+    minutes,
+    hours,
+    days,
+    weeks,
+    months,
+    years,
+  });
+}
+
+export function durationBetweenDates(date1: Date, date2: Date) {
+  const diff = date1.getTime() - date2.getTime();
+  return millisecondsToDuration(diff);
+}
